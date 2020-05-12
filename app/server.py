@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/open?id=1--Y3NULw8VNessnJ063DNiZCs3rJcTAA'
+model_file_url = 'https://www.dropbox.com/s/8kdjnok4fw3noap/teddys.pth?raw=1'
 model_file_name = 'model'
 classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
